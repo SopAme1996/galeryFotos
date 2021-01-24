@@ -18,8 +18,6 @@ export const desingFormulario = makeStyles({
         width: '100%',
         height: '100%',
         objectFit: 'cover',
-        border: '1px green solid'
-        
     },
 
     img:{
@@ -28,7 +26,6 @@ export const desingFormulario = makeStyles({
        },
        overflow: 'hidden',
        width: '390px',
-       border: '1px red solid',
        marginBottom: '50px'
     },
 
