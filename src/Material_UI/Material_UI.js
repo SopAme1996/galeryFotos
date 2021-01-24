@@ -18,30 +18,18 @@ export const desingFormulario = makeStyles({
         width: '100%',
         height: '100%',
         objectFit: 'cover',
+        border: '1px green solid'
+        
     },
 
     img:{
-        "&:nth-child(4)":{
-           gridColumnStart: 'span 2',
-        },
-
-        "&:nth-child(5)":{
-          gridRowStart: 'span 2',
-       },
-
-       "&:nth-child(6)":{
-          gridRowStart: 'span 2',
-       },
-
-       "&:nth-child(10)":{
-          gridColumnStart: 'span 2',
-       },
-
        "&:hover figure div":{
           bottom: '0px',
        },
-
        overflow: 'hidden',
+       width: '390px',
+       border: '1px red solid',
+       marginBottom: '50px'
     },
 
     figure:{
@@ -83,8 +71,9 @@ export const desingFormulario = makeStyles({
     },
 
     seccion:{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(3, 25fr)',
-        gridAutoRows: '400px',
+        display: 'flex',
+        justifyContent: 'space-evenly',
+        flexWrap: 'wrap',
+        alignItems: 'strech'
     }
 });
