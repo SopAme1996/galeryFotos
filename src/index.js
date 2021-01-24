@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { ListaFotos } from './ListaFotos';
 import reportWebVitals from './reportWebVitals';
+import './img/index.css';
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <ListaFotos />,
   document.getElementById('root')
 );
 
